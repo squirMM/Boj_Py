@@ -13,8 +13,7 @@ for _ in range (e):
 
 p1,p2=map(int,input().split())
 
-def dijkstra(start):
-    global n
+def dijkstra(start,n):
     distance=[INF]*(n+1)
     q=[]
     distance[start]=0           
@@ -33,9 +32,9 @@ def dijkstra(start):
     return distance
             
 
-original=dijkstra(1)
-p1_distance=dijkstra(p1)
-p2_distance=dijkstra(p2)
+original=dijkstra(1,n)
+p1_distance=dijkstra(p1,n)
+p2_distance=dijkstra(p2,n)
 
 p1_path=original[p1]+p1_distance[p2]+p2_distance[n]
 p2_path=original[p2]+p2_distance[p1]+p1_distance[n]
