@@ -15,7 +15,7 @@ for i in range (lt):
         if i==0 or j==0: continue
         if s[j]==t[i]:
             dp[i][j]=dp[i-1][j-1]+1
-        ans=max(ans,dp[i][j])
+        #ans=max(ans,dp[i][j])
 
 #for a in dp : print(a)
-print(ans)
+print(max(max(*dp)))
