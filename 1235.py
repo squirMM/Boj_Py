@@ -17,5 +17,4 @@ while True:
     else:
         print(-k)
         break
-
     k-=1

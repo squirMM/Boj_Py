@@ -13,3 +13,4 @@ for i in range(n):
     ans+=arr_A[i]*arr_B[i]
 
 print(ans)
+

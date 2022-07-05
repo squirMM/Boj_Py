@@ -22,4 +22,4 @@ for l,c in dic:
             print("I'm Sorry Hansoo")
             break
 else:
-    print(ans+center+ans[::-1])÷
+    print(ans+center+ans[::-1])

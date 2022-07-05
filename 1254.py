@@ -25,4 +25,5 @@ else:
         
     else:
         print(2*len(s)-1)
+
         

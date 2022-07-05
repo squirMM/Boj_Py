@@ -16,3 +16,5 @@ for i in range(n):
         arr.append(s[i])
 
 print(len(arr)if len(arr) !=0 else 1)
+
+
