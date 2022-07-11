@@ -20,3 +20,4 @@ for i in arr:
     dic[new]=i
 
 print( *[dic[s] for s in sorted(dic)],sep="\n")
+
